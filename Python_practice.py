@@ -63,7 +63,8 @@ for voters in counties_dict.values():
 for county, voters in counties_dict.items():
     print(county, voters)
 
-# 3.2.11 F-Strings
+# 3.2.11 F-Strings & Printing formats
+
     # Using Concatentaion
 counties_dict = {"Arapahoe": 369237, "Denver":413229, "Jefferson": 390222}
 for county, voters in counties_dict.items():
@@ -82,3 +83,5 @@ message_to_candidate = (
     f"You received {candidate_votes / total_votes * 100}% of the total votes.")
 
 print(message_to_candidate) 
+
+    # Format a long decimal with f'{value:{width}.{precision}}
