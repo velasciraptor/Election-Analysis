@@ -42,3 +42,25 @@ x = 0
 while x <= 5:
     print(x)
     x = x + 1
+
+    #For loops
+numbers = [0, 1, 2, 3, 4]
+for num in numbers:
+    print(num)
+    #You can use range instead to simplify code
+for num in range(5):
+    print(num)
+
+for i in range(len(counties)):
+    print(counties[i])
+
+    # For loops in dictionariers
+counties_dict = {"Arapahoe": 422829, "Denver": 463353, "Jefferson": 432438}
+for county in counties_dict.keys():
+    print(county)
+for voters in counties_dict.values():
+    print(voters)
+for county, voters in counties_dict.items():
+    print(county, voters)
+
+    
