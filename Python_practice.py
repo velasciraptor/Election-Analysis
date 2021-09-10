@@ -90,7 +90,7 @@ message_to_candidate = (
     f"The total number of votes in the election was {total_votes:,}. "
     f"You received {candidate_votes / total_votes * 100:.2f}% of the total votes.")
 
-# 3.4.1 Python Dependencies, Modules, and Packages
+# 3.4.1 Python Dependencies, Modules, and Packages; Russian nesting dolls
 
 # Import the datetime class from the datetime module.
 import datetime as dt
