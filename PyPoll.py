@@ -11,6 +11,7 @@ file_to_save = os.path.join("analysis", "election_analysis.txt")
 # 1a. Initialize a total vote counter.
 total_votes = 0
 candidate_options = []
+candidate_votes = {}
 
 # Open the election results and read the file.
 with open(file_to_load) as election_data:
@@ -30,11 +31,14 @@ with open(file_to_load) as election_data:
         # Add the candidate name to the candidate list.
         if candidate_name not in candidate_options:
             candidate_options.append(candidate_name)
-
-# Print the candidate list.
-print(f"The total number of votes cast is {total_votes}.")
-print(f"The names of the candidates voted for are {candidate_options}.")
-
 # 3. The percentage of votes each candidate won
+            candidate_votes[candidate_name] = 0
+        candidate_votes[candidate_name] += 1
+
 # 4. The total number of  votes each candidate won
 # 5. The winner of the eletion based on popular vote
+
+# Print the results.
+print(f"The total number of votes cast is {total_votes}.")
+print(f"The names of the candidates voted for are {candidate_options}.")
+print(f"The amount of votes each candidate received was {candidate_votes}.")
