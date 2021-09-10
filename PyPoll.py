@@ -36,6 +36,10 @@ with open(file_to_load) as election_data:
         candidate_votes[candidate_name] += 1
 
 # 4. The total number of  votes each candidate won
+    for candidate_name in candidate_votes:
+        votes = candidate_votes[candidate_name]
+        vote_percentage = float(votes) / float(total_votes) * 100
+        print(f"{candidate_name}: received {vote_percentage:.1f}% of the vote.")
 # 5. The winner of the eletion based on popular vote
 
 # Print the results.
