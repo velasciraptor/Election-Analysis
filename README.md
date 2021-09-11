@@ -21,10 +21,10 @@ Not pictured here was the creation a list of all the different counties listed i
 ![](Resources/county_info.png)
 
 -**Which county had the largest number of votes?** 
-Denver county had the largest voter turnout with 306,055.
+   -Denver county had the largest voter turnout with 306,055.
 
 -**Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.**
-Below is another picture of code to follow along with during the explanation of finding each candidates vote count and percentage of the total votes.
+   -Below is another picture of code to follow along with during the explanation of finding each candidates vote count and percentage of the total votes.
 
 
 ![](Resources/candidate_code.png)
