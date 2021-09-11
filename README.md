@@ -3,11 +3,11 @@
 ## Overview of Election Audit:
 The purpose of this project is to help Tom find the results of an election in Colorado. At first, he was looking for the total number of votes, total votes per candidate, percentage of votes per candidate, and the winner by popular vote. However, in this project, he has asked me to amend the code in Python to include: number of votes per county, percentage of votes per county, and which county had the largest voter turnout.
 
-### Election-Audit Results: 
--**How many votes were cast in this congressional election?**
+## Election-Audit Results: 
+- **How many votes were cast in this congressional election?**
 369,711 total votes were cast in this election.
 
--**Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.**
+- **Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.**
 Below is the code that was used to find the number of votes and the percentage of total votes for each county in the precinct. 
 
 
@@ -19,10 +19,10 @@ Not pictured here was the creation a list of all the different counties listed i
 
 ![](Resources/county_info.png)
 
--**Which county had the largest number of votes?** 
+- **Which county had the largest number of votes?** 
 Denver county had the largest voter turnout with 306,055.
 
--**Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.**
+- **Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.**
 Just as before, an empty list (*candidate_options*) and an empty dictionary (*candidate_votes*) are needed to group and organize the data for calculation. The list was completed before the picture by starting with an empty list named candidate_name and while looping through each row, adding the name to a list if the name is not already in the list. The votes for each candidate are also calculated here in this loop (as were *votes_per_county*) by tallying each vote until the *candidate_name* changed (then the tally started over at 0 and assigned each value respectively.) Below is another picture of code to follow along with during the explanation of finding each candidates vote count and percentage of the total votes.
 
 
@@ -34,7 +34,7 @@ In the code above, we see (within the dictionary created) the pairing of the *ca
 ![](Resources/candidate_info.png)
 
 
--**Which candidate won the election, what was their vote count, and what was their percentage of the total votes?**
+- **Which candidate won the election, what was their vote count, and what was their percentage of the total votes?**
 The candidate with the most votes was Diana DeGette. She had 272,892 votes, meaning her voters account for 73.8% of the total votes.
 
 ## Election-Audit Summary: 
