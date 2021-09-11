@@ -24,19 +24,22 @@ Not pictured here was the creation a list of all the different counties listed i
 Denver county had the largest voter turnout with 306,055.
 
 -**Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.**
---Just as before, an empty list (*candidate_options*) and an empty dictionary (*candidate_votes*) are needed to group and organize the data for calculation. The list was completed before the picture by starting with an empty list named candidate_name and while looping through each row, adding the name to a list if the name is not already in the list. The votes for each candidate are also calculated here in this loop (as were *votes_per_county*) by tallying each vote until the *candidate_name* changed (then the tally started over at 0 and assigned each value respectively.) Below is another picture of code to follow along with during the explanation of finding each candidates vote count and percentage of the total votes.
+Just as before, an empty list (*candidate_options*) and an empty dictionary (*candidate_votes*) are needed to group and organize the data for calculation. The list was completed before the picture by starting with an empty list named candidate_name and while looping through each row, adding the name to a list if the name is not already in the list. The votes for each candidate are also calculated here in this loop (as were *votes_per_county*) by tallying each vote until the *candidate_name* changed (then the tally started over at 0 and assigned each value respectively.) Below is another picture of code to follow along with during the explanation of finding each candidates vote count and percentage of the total votes.
 
 
 ![](Resources/candidate_code.png)
 
 
-In the code above, we see (within the dictionary created above) the pairing of the *candidate_names* (keys) to the *votes* (values).
+In the code above, we see (within the dictionary created) the pairing of the *candidate_names* (keys) to the *votes* (values). Then, the percentage of votes for each was found. The results were printed into the image below.
+
+![](Resources/candidate_info.png)
 
 
 -**Which candidate won the election, what was their vote count, and what was their percentage of the total votes?**
 The candidate with the most votes was Diana DeGette. She had 272,892 votes, meaning her voters account for 73.8% of the total votes.
 
-## Election-Audit Summary: In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+## Election-Audit Summary: 
+In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
 
 
