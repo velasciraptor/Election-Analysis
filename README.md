@@ -33,7 +33,6 @@ In a summary statement, provide a business proposal to the election commission o
 
 
 
-
 There is a bulleted list where each election outcome is addressed. (7 pt)
 Election Audit Summary
 
