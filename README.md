@@ -10,6 +10,7 @@ The purpose of this project is to help Tom find the results of an election in Co
 - **Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.**
   - Below is the code that was used to find the number of votes and the percentage of total votes for each county in the precinct. 
 ![](Resources/county_code.png)
+
 Not pictured here was the creation a list of all the different counties listed in the data-- the list was named *county_list*. After finding the counties,  an empty dictionary was created named *county_votes*. What we begin to see at the top of the code here (within the dictionary) is the pairing of the *county_names* (keys) to the *votes_per_county* (values). Then, the percentage of votes within each county out of the total votes is calculated. Under comments 6d and 6e show the process of displaying the answers we have found to the number of votes and the percentage of total votes for each county in the precinct. Then under comment 6f the winning county along with its vote count is assigned to a variable to display later. The results are shown below.
 
 
