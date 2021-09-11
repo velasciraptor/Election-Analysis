@@ -34,12 +34,19 @@ In the code above, we see (within the dictionary created) the pairing of the *ca
   - The candidate with the most votes was Diana DeGette. She had 272,892 votes, meaning her voters account for 73.8% of the total votes.
 
 ## Election-Audit Summary: 
+This code will work for any election in which the data fits the 3 columns provided in the CSV file: Ballot ID, County, and Candidate. The code will not be affected if new candidates or counties are added. It will simply include the new information in the output. If there are concerns about using this code for a different kind of celection, however, here are 2 ideas for small ways the code could be modified to be used in other elections:
+- 
+- 
+
+
 In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
 
-
-
-
-There is a bulleted list where each election outcome is addressed. (7 pt)
-Election Audit Summary
-
 There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
+
+
+
+
+
+
+
+
