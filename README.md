@@ -3,8 +3,7 @@
 ## Overview of Election Audit:
 The purpose of this project is to help Tom find the results of an election in Colorado. At first, he was looking for the total number of votes, total votes per candidate, percentage of votes per candidate, and the winner by popular vote. However, in this project, he has asked me to amend the code in Python to include: number of votes per county, percentage of votes per county, and which county had the largest voter turnout.
 
-## Election-Audit Results: 
-
+### Election-Audit Results: 
 -**How many votes were cast in this congressional election?**
 369,711 total votes were cast in this election.
 
