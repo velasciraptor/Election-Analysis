@@ -35,7 +35,7 @@ In the code above, we see (within the dictionary created) the pairing of the *ca
 
 ## Election-Audit Summary: 
 This code will work for any election in which the data fits the 3 columns provided in the CSV file: Ballot ID, County, and Candidate. The code will not be affected if new candidates or counties are added. It will simply include the new information in the output. If there are concerns about using this code for a different kind of celection, however, here are 2 ideas for small ways the code could be modified to be used in other elections:
-- 
+- Federal election:
 - 
 
 
