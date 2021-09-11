@@ -5,9 +5,11 @@ The purpose of this project is to help Tom find the results of an election in Co
 
 ## Election-Audit Results: 
 - **How many votes were cast in this congressional election?**
+
 369,711 total votes were cast in this election.
 
 - **Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.**
+
 Below is the code that was used to find the number of votes and the percentage of total votes for each county in the precinct. 
 
 
