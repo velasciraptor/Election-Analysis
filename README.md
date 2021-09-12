@@ -64,7 +64,7 @@ Then, skip to the very bottom of the code and input the code below:
 ![](Resources/mod2_code.png)
 
 
-The results should look like this. Notice the green line shows the results are in rows 23 & 24. You percentage will look different.
+The results should look like this. Notice the green line shows the results are in rows 23 & 24. Your percentage will look different.
 
 ![](Resources/mod2_result.png)
 
