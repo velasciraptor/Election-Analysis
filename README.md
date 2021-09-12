@@ -46,12 +46,8 @@ The word county is underlined in red on lines 88 and 114. Change "County" to "St
 
 As you can see, the blue shows us that rows 7 and 13 have been changed to read "State" instead of "County". When the data of the second column of the CSV is changed, the output information for each state will be changed accordingly. This can be done for any other indentifying factors like ethnicities, political party, or other demographics. Of course, this only changes what the output would look like. A cleaner way to modify the code to make it more readable is to go through and change every instance where the word "county" was used to your new identifying factor. For example, if the code says *state_list* rather than *county_list* that makes the code more readable for a future coder. Keep in mind though, the logic all stays the same and this thorough cleaning is not necessary, and may even cause trouble if any 1 instance of the word "county" is left behind. 
 
-- 
+2. The second modification allows for 
 
-
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
-
-There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
 
 
 
