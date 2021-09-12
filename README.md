@@ -35,7 +35,17 @@ In the code above, we see (within the dictionary created) the pairing of the *ca
 
 ## Election-Audit Summary: 
 This code will work for any election in which the data fits the 3 columns provided in the CSV file: Ballot ID, County, and Candidate. The code will not be affected if new candidates or counties are added. It will simply include the new information in the output. If there are concerns about using this code for a different kind of celection, however, here are 2 ideas for small ways the code could be modified to be used in other elections:
-- Federal election:
+
+- For the first modification, there is one small change that allows for all kinds of different elections. (Do not worry, there are pictures below but first an explanation.) Instead of finding the information above for counties, we can add other distinguishing details like states, ethnicities, political party, or other demographics. Currently, the middle column of the CSV contains counties where the voter is from. If we change the information in that column to any other of these details, the same code will run can find the count for that detail, percentage out of the total, and which type of detail had the most votes. The only thing we would need to change is the printing details. This all sounds vague, so let us look at it concretely. 
+
+![](Resources/mod1_code.png)
+
+The word county is underlined in red on lines 88 and 114. Change "County" to "State" in these lines of code after entering all the states into the second column of the CSV. Because a state is an identifying factor of the voters that can be used to group the voters, the logic will be the same and so no further changes to the code are needed. The results look like this.
+
+![](Resources/mod1_results.png)
+
+As you can see, the blue shows us that rows 7 and 13 have been changed to read "State" instead of "County". When the data of the second column of the CSV is changed, the output information for each state will be changed accordingly. This can be done for any other indentifying factors like ethnicities, political party, or other demographics. Of course, this only changes what the output would look like. A cleaner way to modify the code to make it more readable is to go through and change every instance where the word "county" was used to your new identifying factor. For example, if the code says *state_list* rather than *county_list* that makes the code more readable for a future coder. Keep in mind though, the logic all stays the same and this thorough cleaning is not necessary, and may even cause trouble if any 1 instance of the word "county" is left behind. 
+
 - 
 
 
