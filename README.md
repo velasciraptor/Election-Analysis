@@ -70,12 +70,3 @@ The results should look like this. Notice the green line shows the results are i
 
 
 Once this code is added, you will only have to go back and edit the amount after *eligible_voters = * according to how many Coloradoans are eligible to vote during the election you are investigating.
-
-
-
-
-
-
-
-
-
